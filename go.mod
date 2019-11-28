@@ -1,4 +1,4 @@
-module github.com/verchol/helm-hook-update.git
+module  github.com/verchol/slackjob
 
 go 1.13
 
