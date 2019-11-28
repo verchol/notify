@@ -1,4 +1,4 @@
-module  github.com/verchol/notify
+module github.com/verchol/notify
 
 go 1.13
 
