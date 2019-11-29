@@ -17,7 +17,7 @@ func SendHttpMessage(url string, m string) (string, error) {
 	msg, _ := json.Marshal(map[string]string{
 		"text": m,
 	})
-	resp, err := http.Post("https://hooks.slack.com/services/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",
+	resp, err := http.Post(url,
 		"application/json",
 		bytes.NewBuffer(msg))
 	if err != nil {
