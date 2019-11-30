@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: j1.2s
+  namespace: default
+spec:
+  backoffLimit: 6
+  completions: 1
+  parallelism: 1
+  template:
+    spec:
+      containers:
+      - image: alpine
+        imagePullPolicy: Always
+        name: j1
+        args: ["echo", "hello world"]
+      restartPolicy: Never
