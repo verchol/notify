@@ -11,5 +11,6 @@ require (
 	github.com/imdario/mergo v0.3.8 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/nlopes/slack v0.6.0
-	golang.org/x/crypto v0.0.0-20191119213627-4f8c1d86b1ba // indirect
+	golang.org/x/crypto v0.1.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
